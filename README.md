@@ -1,3 +1,3 @@
 # ForwardingAgentBackendSpring
 
-Backend module developed by Spring Framework which provide services needed by fronend Angular module.
+Backend module developed by Spring Framework which provide services necessary for fronend Angular module.
