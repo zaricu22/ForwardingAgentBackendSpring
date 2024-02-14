@@ -14,7 +14,7 @@ import java.util.List;
  * 
  */
 @Entity
-@Table(name="korisnik")
+@Table(name="korisnik", schema = "forwarding_agent")
 @NamedQuery(name="Korisnik.findAll", query="SELECT k FROM Korisnik k")
 public class Korisnik implements Serializable {
 	private static final long serialVersionUID = 1L;
@@ -33,7 +33,7 @@ public class Korisnik implements Serializable {
 	@JsonIgnore
 	@ManyToMany
 	@JoinTable(
-		name="korisnik_uloga"
+		name="korisnik_uloga", schema = "forwarding_agent"
 		, joinColumns={
 			@JoinColumn(name="User_username", nullable=false)
 			}

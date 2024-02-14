@@ -14,7 +14,7 @@ import java.util.Date;
  * 
  */
 @Entity
-@Table(name="isporuka")
+@Table(name="isporuka", schema = "forwarding_agent")
 @NamedQuery(name="Isporuka.findAll", query="SELECT i FROM Isporuka i")
 public class Isporuka implements Serializable {
 	private static final long serialVersionUID = 1L;

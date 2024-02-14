@@ -14,7 +14,7 @@ import java.util.List;
  * 
  */
 @Entity
-@Table(name="kamion")
+@Table(name="kamion", schema = "forwarding_agent")
 @NamedQuery(name="Kamion.findAll", query="SELECT k FROM Kamion k")
 public class Kamion implements Serializable {
 	private static final long serialVersionUID = 1L;

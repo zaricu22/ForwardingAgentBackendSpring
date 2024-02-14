@@ -15,7 +15,7 @@ import java.util.List;
  * 
  */
 @Entity
-@Table(name="vozac")
+@Table(name="vozac", schema = "forwarding_agent")
 @NamedQuery(name="Vozac.findAll", query="SELECT v FROM Vozac v")
 public class Vozac implements Serializable {
 	private static final long serialVersionUID = 1L;

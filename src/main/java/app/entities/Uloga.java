@@ -13,7 +13,7 @@ import java.util.List;
  * 
  */
 @Entity
-@Table(name="uloga")
+@Table(name="uloga", schema = "forwarding_agent")
 @NamedQuery(name="Uloga.findAll", query="SELECT u FROM Uloga u")
 public class Uloga implements Serializable {
 	private static final long serialVersionUID = 1L;

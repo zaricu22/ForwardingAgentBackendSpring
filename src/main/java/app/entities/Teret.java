@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
  * 
  */
 @Entity
-@Table(name="teret")
+@Table(name="teret", schema = "forwarding_agent")
 @NamedQuery(name="Teret.findAll", query="SELECT t FROM Teret t")
 public class Teret implements Serializable {
 	private static final long serialVersionUID = 1L;

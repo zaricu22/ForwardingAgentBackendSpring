@@ -14,7 +14,7 @@ import java.util.List;
  * 
  */
 @Entity
-@Table(name="prikolica")
+@Table(name="prikolica", schema = "forwarding_agent")
 @NamedQuery(name="Prikolica.findAll", query="SELECT p FROM Prikolica p")
 public class Prikolica implements Serializable {
 	private static final long serialVersionUID = 1L;
