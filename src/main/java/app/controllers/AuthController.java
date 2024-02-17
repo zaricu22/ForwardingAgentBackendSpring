@@ -38,7 +38,6 @@ public class AuthController {
 	public Token login(String username, String password) {
 		Korisnik u = kr.findByUsername(username);
 		if (u != null && u.getPassword().equals(password)) {
-			System.out.println("LOGIN "+username+" "+password);
 			return new Token(randomString(), u.getUsername(), u.getUlogas().get(0).getNaziv(), u.getIdPreduzeca());
 		}
 		

@@ -159,7 +159,7 @@ public class Kamion implements Serializable {
 	public String toString() {
 		return "Kamion [idKamion=" + idKamion + ", km=" + km + ", model=" + model + ", godinaProizvodnje="
 				+ godinaProizvodnje + ", nosivost=" + nosivost + ", slika=" + slika + ", tip=" + tip + ", prevoznik="
-				+ prevoznik + ", vozac=" + vozac + "]";
+				+ prevoznik + "]";
 	}
 	
 	

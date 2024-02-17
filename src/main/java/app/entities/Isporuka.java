@@ -194,7 +194,7 @@ public class Isporuka implements Serializable {
 				+ ", mestoDolaska=" + mestoDolaska + ", mestoPolaska=" + mestoPolaska + ", statusDostave="
 				+ statusDostave + ", statusPlacanja=" + statusPlacanja + ", tip=" + tip + ", vremeDolaska="
 				+ vremeDolaska + ", vremePolaska=" + vremePolaska + ", proizvodjac=" + proizvodjac + ", teret=" + teret
-				+ ", ugovor=" + ugovor + "]";
+				+ "]";
 	}
 
 	

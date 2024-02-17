@@ -159,7 +159,7 @@ public class Prikolica implements Serializable {
 	public String toString() {
 		return "Prikolica [idPrikolica=" + idPrikolica + ", km=" + km + ", model=" + model + ", godinaProizvodnje="
 				+ godinaProizvodnje + ", nosivost=" + nosivost + ", slika=" + slika + ", tip=" + tip + ", prevoznik="
-				+ prevoznik + ", vozac=" + vozac + "]";
+				+ prevoznik + "]";
 	}
 
 	

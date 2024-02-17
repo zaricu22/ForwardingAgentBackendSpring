@@ -94,7 +94,6 @@ public class CarrierController {
 	@GetMapping(value = "/driverPage")
 	public List<Vozac> driverPage(Integer page, Integer perPage, String sortBy, Integer idPrevoznik) {
 		Pageable pageable = PageRequest.of(page, perPage, Sort.by(sortBy).ascending());
-		System.out.println(vozRep.findByPrevoznikIdPrevoznik(idPrevoznik, pageable).toList().get(0));
 		return  vozRep.findByPrevoznikIdPrevoznik(idPrevoznik, pageable).toList();  
 	}
 	
